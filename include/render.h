@@ -1,0 +1,14 @@
+#ifndef _RENDER_H
+#define _RENDER_H
+
+#include <cstdint>
+#include <string>
+
+class Render {
+public:
+    explicit Render(bool isClear=false);
+    void draw(const uint8_t* data, int w, int h) const noexcept;
+private:
+    bool isClear;
+};
+#endif
