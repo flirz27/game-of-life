@@ -23,14 +23,14 @@ Requirements
 
     GoogleTest
 
-Install GoogleTest (Debian/Ubuntu):
+-Install GoogleTest (Debian/Ubuntu):
 
 
 ##bash
 
 sudo apt install libgtest-dev cmake clang
 
-Building
+-Building
 
 
 ##bash
@@ -43,17 +43,17 @@ cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
 
 cmake --build build
 
-Executable: build/game_of_life
+-Executable: build/game_of_life
 
-Tests: build/UnitTests
+-Tests: build/UnitTests
 
-Run the tests:
+-Run the tests:
 
 ##bash
 
 cd build && ctest --output-on-failure
 
-Run Modes
+-Run Modes
 
 The program support 3 modes.
 
@@ -63,8 +63,7 @@ The program support 3 modes.
 
 3. like 3, but will go through <t> ticks and save it
 
-Interactive Commands
-Command	Description
+-Command	Description
 tick <n> / t <n>	Advance n generations and render the field (defaults to 1)
 
 dump <path>	Save the current state to a file
@@ -73,7 +72,7 @@ help	Show the list of commands
 
 exit	Quit the program
 
-File Format
+-File Format
 The project uses the #Life 1.06 format:
 text
 
@@ -105,7 +104,7 @@ text
 
     The remaining lines are coordinates of live cells x y.
 
-Architecture
+-Architecture
 
     Universe — holds the current and next cell generations, evolves them using a given rule.
 
