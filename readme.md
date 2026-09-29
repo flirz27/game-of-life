@@ -35,7 +35,7 @@ sudo apt install libgtest-dev cmake clang
 
 ##bash
 
-git clone <git@github.com:flirz27/game-of-life.git>
+git clone <https://github.com/flirz27/game-of-life.git>
 
 cd conways_game_of_life
 
