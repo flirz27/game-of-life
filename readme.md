@@ -74,7 +74,7 @@ exit	Quit the program
 
 -File Format
 The project uses the #Life 1.06 format:
-text
+example.life
 
 #Life 1.06
 
