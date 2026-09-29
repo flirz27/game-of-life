@@ -50,8 +50,6 @@ The program support 3 modes.
 2. Load a specific file and show game on console
 3. like 3, but will go through <t> ticks and save it
 
-./game_of_life <i
-
 Interactive Commands
 Command	Description
 tick <n> / t <n>	Advance n generations and render the field (defaults to 1)
